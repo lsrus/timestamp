@@ -1,8 +1,9 @@
-var express = require('express');
-var port = env.process.PORT;
+express = require('express');
+port = env.process.PORT|| 8080;
+
 
 express.get('/', function(req, res){
-  res.send('Here')
+  res.send('Here');
 }
 
-express.listen(port)
+express.listen('port')
