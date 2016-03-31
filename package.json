@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lsrus/timestamp/issues"
   },
-  "homepage": "https://github.com/lsrus/timestamp"
+  "homepage": "https://github.com/lsrus/timestamp",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
