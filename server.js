@@ -12,7 +12,7 @@ app.get('/', function(req, res){
 })
 
 app.use('/:date', function(req, res){
-  var argu = parseInt(req.params.date)
+  var argu = parseInt(req.params.date * 1000)
   if (argu) {
     var date = new Date(argu);
   } else {
